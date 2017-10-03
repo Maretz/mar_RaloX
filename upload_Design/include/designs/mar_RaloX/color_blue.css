@@ -1,0 +1,164 @@
+/* Maretz.eu -   mar_Ralox */
+
+.ralox_header h1 {
+    color: #00495D;
+    text-shadow: 0 0 15px #fff, 0 0 15px #fff, 0 0 15px #fff, 0 0 15px #fff;
+}
+.button_ralox {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 119, 153, 0.6));
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #969696;
+}
+.button_ralox_V {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 119, 153, 0.6));
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #969696;
+}
+.button_ralox:hover,
+.button_ralox_V:hover {
+    background: linear-gradient(to top, rgba(0, 49, 63, 0.4), rgba(0, 0, 0, 0.4));
+    color: #00C7FF;
+    text-shadow: 0 0 15px #49D7FF, 0 0 15px #49D7FF;
+    border: 1px solid rgba(0, 162, 211, 0.6);
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 162, 211, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0, 162, 211, 1);
+    box-shadow: 0px 0px 24px 0px rgba(0, 162, 211, 1);
+}
+.ralox_explode_in {
+    background: linear-gradient(to top, rgba(0, 49, 63, 0.4), rgba(0, 0, 0, 0.4));
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.box_na {
+    color: #969696;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 119, 153, 0.6));
+}
+.box_mit {
+    background: linear-gradient(to top, rgba(0, 49, 63, 0.4), rgba(0, 0, 0, 0.4));
+    color: #ddd;
+}
+.ralox_infopan {
+    background: linear-gradient(to top, rgba(0, 49, 63, 0.4), rgba(0, 0, 0, 0.4));
+    color: #ddd;
+}
+.ralox_infopan_name {
+    color: #00C7FF;
+    text-shadow: 0 0 15px #49D7FF, 0 0 15px #49D7FF;
+}
+.inmass {
+    color: #ddd;
+}
+.ralox_hmenu,
+.ralox_hmenu a,
+.ralox_hmenu a:hover {
+    color: #00C7FF;
+    text-shadow: 0 0 15px #49D7FF, 0 0 15px #49D7FF;
+}
+#countrytabs1 {
+    background: linear-gradient(to top, rgba(0, 49, 63, 0.4), rgba(0, 0, 0, 0.4));
+    color: #00C7FF;
+    border: 1px solid rgba(0, 162, 211, 0.6);
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 162, 211, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0, 162, 211, 1);
+    box-shadow: 0px 0px 24px 0px rgba(0, 162, 211, 1);
+}
+.shadetabs li {
+    color: #969696;
+}
+.shadetabs li a {
+    color: #969696;
+}
+.shadetabs li a:visited {
+    color: #969696;
+}
+.shadetabs li a:hover {
+    color: #00C7FF;
+}
+.shadetabs li a.selected {
+    color: #00C7FF;
+    text-shadow: 0 0 15px #49D7FF, 0 0 15px #49D7FF;
+}
+.footer_ralox {
+    color: #00C7FF;
+}
+.footer_ralox a,
+.top_ralox a {
+    color: #fff;
+}
+.footer_ralox a:hover,
+.top_ralox a:hover {
+    color: #00C7FF;
+    text-shadow: 0 0 15px #49D7FF;
+}
+.boxen_eintrag {
+    text-shadow: 1px 1px 1px #000;
+    color: #969696;
+    border-left: 1px solid #094e60;
+}
+.boxen_eintrag:hover {
+    background: #094e60;
+    text-shadow: 1px 1px 1px #094e60;
+    color: #ccc;
+    border-left: 1px solid #49D7FF;
+}
+.boxen_eintrag a,
+.boxen_eintrag a:hover {
+    color: #49D7FF;
+    text-shadow: 0 0 0 #000;
+}
+.name_a {
+    color: #49D7FF;
+}
+a:hover {
+    color: #00C7FF;
+    text-shadow: 0 0 15px #49D7FF;
+}
+a.box {
+    color: #ccc;
+    font: 14px andika, sans-serif, Arial;
+    text-decoration: none;
+    -o-transition: color .2s ease-out;
+    -ms-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    -webkit-transition: color .2s ease-out;
+}
+a.box:hover {
+    color: #00C7FF;
+    text-shadow: 0 0 15px #49D7FF;
+}
+.Chead {
+    background: linear-gradient(to top, rgba(0, 49, 63, 0.4), rgba(0, 0, 0, 0.4));
+}
+.Cdark,
+.Cdark:hover {
+    color: #00C7FF;
+    background: #161616;
+}
+.smalfont {
+    color: #00C7FF;
+}
+.smalfont_copyright {
+    color: #00C7FF;
+}
+.dltext {
+    color: #00C7FF;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+button[type=submit]:focus,
+textarea:focus,
+button[type=submit]:hover,
+input[type=password]:hover,
+input[type=text]:hover,
+textarea:hover {
+    box-shadow: 0 0 5px rgba(0, 199, 255, 1);
+    border: 1px solid rgba(0, 199, 255, 1);
+}
+input[type=submit]:hover,
+input[type=button]:hover {
+    box-shadow: 0 0 5px rgba(0, 199, 255, 1);
+}
+.spinner > div {
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 162, 211, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0, 162, 211, 1);
+    box-shadow: 0px 0px 24px 0px rgba(0, 162, 211, 1);
+}

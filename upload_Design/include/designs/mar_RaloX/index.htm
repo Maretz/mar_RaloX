@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <!--
+Tab Content script v2.2  © Dynamic Drive DHTML code library (www.dynamicdrive.com) 
+Horizontal Tab © 2013 Jelle Kralt (www.jellekralt.nl) 
+-->
+    <!-- Maretz.eu - Free Ilch Clan and CommUnity Templates -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Maretz.eu">
+    <link rel="shortcut icon" href="include/designs/mar_RaloX/img/favicon.ico">
+    <title>{TITLE}</title>
+    <div id="waitDiv" class="waitbox">
+        <div class="center">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+            <br class="breakall">
+        </div>
+    </div>
+    <script type="text/javascript">
+        var DHTML = (document.getElementById || document.all || document.layers);
+
+        function ap_getObj(name) {
+            if (document.getElementById) {
+                return document.getElementById(name).style;
+            } else if (document.all) {
+                return document.all[name].style;
+            } else if (document.layers) {
+                return document.layers[name];
+            }
+        }
+
+        function ap_showWaitMessage(div, flag) {
+            if (!DHTML) return;
+            var x = ap_getObj(div);
+            x.visibility = (flag) ? 'visible' : 'hidden'
+            if (!document.getElementById)
+                if (document.layers) x.left = 280 / 2;
+            return true;
+        }
+        ap_showWaitMessage('waitDiv', 1);
+    </script>
+    {_boxes_raloxstyles}
+    <link rel="stylesheet" href="include/designs/mar_RaloX/font-awesome/css/font-awesome.min.css">
+    <script src="//use.edgefonts.net/wallpoet:n4:all;rationale:n4:all.js"></script>
+    <script src="include/designs/mar_RaloX/js/script.js"></script>
+    <script src="include/designs/mar_RaloX/js/tabcontent.js"></script>
+</head>
+<body>
+    <div id="site">
+        <a name="start_ralox" id="start_ralox"></a>
+        <div class="ralox_body">
+            <div class="ralox_in">
+                <div class="ralox_menu">{_list_menunr5@ %2}</div>
+                <div class="ralox_header">
+                    <h1>{SITENAME}<span>{_boxes_raloxsociallinks}</span></h1>
+                </div>
+                <div class="ralox_explode">
+                    <div class="ralox_explode_in inmass">
+                        <div class="ralox_infopan">
+                            <div class="ralox_infopan_name"><i class="fa fa-newspaper-o"></i> Latest News</div>
+                            <div class="ralox_infopan_name"><i class="fa fa-comments-o"></i> Last Forum</div>
+                            <div class="ralox_infopan_name"><i class="fa fa-user-secret"></i> User Panel</div>
+                            <div class="ralox_boxen">
+                                <div class="ralox_boxen_in">{_boxes_lastnews_ralox}</div>
+                                <div class="ralox_boxen_in">{_boxes_lastforum_ralox}</div>
+                                <div class="ralox_boxen_in">{_boxes_login_ralox}</div>
+                            </div>
+                        </div>
+                        <div class="ralox_hmenu"><i class="fa fa-toggle-on"></i> {HMENU}</div>{EXPLODE}</div>
+                    <div class="ralox_menu_in">
+                        <ul id="countrytabs1" class="shadetabs">
+                            <li class="hvr-pop"><a class="selected" href="#" rel="left_col" title="Men&uuml; 1"><i class="fa fa-bars"></i> Men&uuml; 1</a>
+                            </li>
+                            <li class="hvr-pop"><a href="#" rel="left_col1" title="Men&uuml; 2"><i class="fa fa-bars"></i> Men&uuml; 2</a>
+                            </li>
+                            <li class="hvr-pop"><a href="#" rel="left_col2" title="Men&uuml; 3"><i class="fa fa-bars"></i> Men&uuml; 3</a>
+                            </li>
+                        </ul>
+                        <div id="left_col" class="tabcontent">{_list_menunr1@
+                            <div class="box_na">%1</div>
+                            <div class="box_mit">%2</div>}</div>
+                        <div id="left_col1" class="tabcontent">{_list_menunr2@
+                            <div class="box_na">%1</div>
+                            <div class="box_mit">%2</div>}</div>
+                        <div id="left_col2" class="tabcontent">{_list_menunr3@
+                            <div class="box_na">%1</div>
+                            <div class="box_mit">%2</div>}</div>
+                        <script type="text/javascript">
+                            var countries = new ddtabcontent("countrytabs1")
+                            countries.setpersist(true)
+                            countries.setselectedClassTarget("link")
+                            countries.init()
+                        </script>
+                    </div>
+                </div>
+                <div class="footer_ralox"><a href="index.php?impressum" title="Imprint">All Rights by {SITENAME}</a> <i class="fa fa-ellipsis-h"></i> <a href="https://www.maretz.eu" title="Maretz.eu Designs">Maretz.eu Designs</a> <i class="fa fa-compress"></i> <a href="http://www.ilch.de" title="Ilch.de">CMS by Ilch.de</a>
+                </div>
+                <div class="top_ralox"><a href="#start_ralox" title="nach oben"><i class="fa fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    <!-- 
+    setTimeout("ap_showWaitMessage('waitDiv', 0);", 800)
+        //-->
+</script>
+<!-- {_list_hmenupoint@<a class="button_ralox hvr-pop" target="%1" href="%2" title="%3">%3</a>}
+{_list_hmenubegi@}
+{_list_hmenuende@}
+{_list_vmenupoint@<a target="%1" class="button_ralox_V hvr-pop" href="%2" title="%3">%3</a>}
+{_list_vmenubegi@}
+{_list_vmenuende@}//-->

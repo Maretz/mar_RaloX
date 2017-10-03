@@ -1,0 +1,9 @@
+/* Maretz.eu -   mar_Ralox */
+
+body {
+    background-color: #000;
+    background-image: url(img/background_TCTD.jpg);
+}
+.ralox_header {
+    background-image: url(img/header_TCTD.png), url(img/header_TCTD.jpg), url(img/header_TCTD.gif);
+}

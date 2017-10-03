@@ -1,0 +1,60 @@
+<style type="text/css" media="screen">
+   hr {width:98%;border: 1px solid #000;margin-bottom:20px;}
+   h1  small {font-size:12px;}
+   input[type=text] {padding:2px;}
+</style>
+<table width="98%" cellpadding="0" cellspacing="0" border="0" style="padding-left:5%">
+   <tr>
+      <td>
+         <h1>Design mar_RaloX <small><a href="http://www.maretz.eu" target="_blank">by Maretz.eu</a></small></h1>
+      </td>
+   </tr>
+</table>
+<hr>
+<form action="admin.php?marralox"  method="POST" name="form" onsubmit="return chkform()">
+   <table width="60%" border="0" cellpadding="3" cellspacing="1" class="border" align="center">
+      <tr class="Cdark">
+         <td colspan="2" height="30" align="center"><b>Einstellungen Design mar_RaloX</b></td>
+      </tr>
+      <tr>
+         <td width="40%" class="Cmite">Farbstyle<br><small>> Farbestyle des Designs w&auml;hlen</small></td>
+         <td width="60%" class="Cnorm">
+<select name="rx_raloxtheme">
+					<option value="include/designs/mar_RaloX/color_blue.css" {selectedblue}>Blau</option>
+					<option value="include/designs/mar_RaloX/color_orange.css" {selectedorange}>Orange</option>
+					<option value="include/designs/mar_RaloX/color_green.css" {selectedgreen}>Gr&uuml;n</option>
+					<option value="include/designs/mar_RaloX/color_red.css" {selectedred}>Rot</option>
+					<option value="include/designs/mar_RaloX/color_yellow.css" {selectedyellow}>Gelb</option>
+					</select>         
+         </td>
+      </tr>
+      <tr>
+         <td width="40%" class="Cmite">Gamestyle<br><small>> Gamestyle des Designs w&auml;hlen</small></td>
+         <td width="60%" class="Cnorm">
+<select name="rx_raloxstyle">
+					<option value="include/designs/mar_RaloX/gamestyle_TCTD.css" {selectedTCTD} >Tom Clansy The Division</option>
+					<option value="include/designs/mar_RaloX/gamestyle_WOW.css" {selectedWOW} >World of Warships</option>
+					<option value="include/designs/mar_RaloX/gamestyle_WOT.css" {selectedWOT} >World of Tanks</option>
+					</select>         
+         </td>
+      </tr>
+            <tr>
+         <td width="40%" class="Cmite">Facebook<br><small>> Button Facebook Link</small></td>
+         <td width="60%" class="Cnorm"><input type="text" name="linkfb" value="{linkfb}"  value maxlength="100" size="50"></td>
+      </tr>
+            <tr>
+         <td width="40%" class="Cmite">Twitter<br><small>> Button Twitter Link</small></td>
+         <td width="60%" class="Cnorm"><input type="text" name="linktwitter" value="{linktwitter}"  value maxlength="100" size="50"></td>
+      </tr>
+                  <tr>
+         <td width="40%" class="Cmite">Google+<br><small>> Button Google+ Link</small></td>
+         <td width="60%" class="Cnorm"><input type="text" name="linkgoogleplus" value="{linkgoogleplus}"  value maxlength="100" size="50"></td>
+      </tr>
+                        <tr class="Cmite">
+         <td colspan="2" height="20" style="text-align:center"><a href="admin.php?menu-5"><b>Zur Men&uuml;verwaltung vom Design ( horizontales Men&uuml; )</b></a></td>
+      </tr>
+      <tr class="Cdark">
+         <td colspan="2" height="30" style="text-align:center"><input type="submit" value="Einstellungen &uuml;bernehmen" name="Submit_marralox"></td>
+      </tr>
+   </table>
+</form>
